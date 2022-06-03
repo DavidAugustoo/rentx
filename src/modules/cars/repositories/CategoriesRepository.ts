@@ -10,6 +10,7 @@ class CategoriesRepository implements ICategoriesRepository {
     constructor() {
         this.categories = [];
     }
+
     findByname(name: string): Category {
         throw new Error("Method not implemented.");
     }
